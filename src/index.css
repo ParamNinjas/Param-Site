@@ -1,13 +1,129 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*********************************************
+Home
+*********************************************/
+.home-con{
+    background-image: url(./img/background.png);
 }
+.home-con h2 {
+   
+width: 678px;
+height: 316px;
+font-family: 'Objective';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 65px;
+/* or 108% */
+color: #FFFFFF;
+}
+.homeBTN {
+    padding-bottom: 20px !important;
+}
+.teamBTN{
+    width: 256px;
+    height: 68px;
+    color: #103A05 !important;
+    background-color: #FFFFFF !important;
+    border-radius: 50px !important;
+    
+}
+.aboutBTN {
+    width: 256px;
+    height: 68px;
+    border-radius: 50px !important;
+    background: url(./img/background.png);
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+    
+}
+.home-paragraph{
+    width: 100%;
+    height: 166px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #103A05;
+}
+.tp{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.typo{
+    width: 437px;
+    height: 400px;
+    align-items: center;
+    border: 3px solid #2D3F57;
+    box-sizing: border-box;
+    
+}
+.business{
+  
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.bizTypo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 10px;
+}
+.handImg{
+    width: 100;
+    background: #160021;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.model{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.moneyImg{
+    width: 100;
+    background: #103A05;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.linkImg{
+    width: 100;
+    background: #023373;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.partner-typo{
+    display: flex;
+    padding-top: 30px;
+    gap: 15px;
+    justify-content: center;
+    background: #6E8B69;
+    color: #FFFFFF;
+}
+.partner-logo{
+    border: 1px solid #6E8B69;
+    box-sizing: border-box;
+}
+.partner-sen{
+    border: 1px solid #6E8B69;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+.microImg{
+    width: 400px ;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+.lifeImg{
+    width: 300px;
+}
+.ibmImg{
+    width: 200px;
 }

@@ -1,0 +1,30 @@
+*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 89.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+li{
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: #103A05;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navMenu{
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
