@@ -16,12 +16,6 @@ Home
     padding-top: 2em;
     color: #FFFFFF;
     font-size: 60px;
-/* font-family: 'Objective';
-font-style: normal;
-font-weight: 900;
-font-size: 60px;
-line-height: 65px;
- color: #FFFFFF; */
 }
 .homeBTN {
     padding-bottom: 20px !important;
@@ -86,6 +80,7 @@ line-height: 65px;
 .businessTypo h5{
     position: relative;
     margin-bottom: 2%;
+    color: rgba(0, 0, 0, 0.5);
 }
 .businessTypo h5::before{
     position: absolute;
@@ -109,8 +104,6 @@ line-height: 65px;
     content: "";
     width: 140px;
     height: 8px;
-    /* left: 1174px;
-    top: 1706px; */
     background: #103A05;
 }
 .bizTypo h4::before{
@@ -120,8 +113,6 @@ line-height: 65px;
     content: "";
     width: 140px;
     height: 8px;
-    /* left: 1174px;
-    top: 1706px; */
     background: #103A05;
 }
 .handImg{
