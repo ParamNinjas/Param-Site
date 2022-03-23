@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    gap: 65px;
+    background-color: #6E8B69;
+    background-image: url(../img/footerback.png);
+    color: aliceblue;
+}
+.buildtypo{
+    font-family: 'Objective';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 72px;
+    /* or 120% */
+     
+}
+.section1{
+    flex: 4;
+}
+.section2{
+    flex: 2;
+}
+.section3{
+    flex: 2;
+    font-family: 'Objective';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 90px;
+}

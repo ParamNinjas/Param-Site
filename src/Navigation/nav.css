@@ -18,13 +18,14 @@ a {
 }
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     height: 8vh;
     background: #FFFFFF;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 4px 4px rgb(0 0 0 / 25%);
+    margin-bottom: 1em;
 }
 .navMenu{
     display: flex;
-    justify-content: space-around;
-    gap: 3rem;
+    justify-content: start;
+    gap: 9rem;
 }
