@@ -1,7 +1,7 @@
 .footer{
     display: flex;
     gap: 65px;
-    background-color: #6E8B69;
+    background-color: #103A05;
     background-image: url(../img/footerback.png);
     color: aliceblue;
 }
