@@ -14,13 +14,13 @@ li{
 }
 a {
     text-decoration: none;
-    color: #103A05;
+    color: #FFFFFF;
 }
 .nav{
     display: flex;
     justify-content: start;
     height: 8vh;
-    background: #FFFFFF;
+    background: #223e32;
     box-shadow: 2px 4px 4px rgb(0 0 0 / 25%);
     margin-bottom: 1em;
 }

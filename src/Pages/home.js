@@ -36,7 +36,7 @@ function Home() {
     const classes = useStyles();
     return(
     <>   
-     <Nav/>
+        <Nav/>
         <div className='home-con'>
             <h2 className='home-text'>Connecting great<br/> Ideas with great <br/>teams through collaboration</h2>
             <div className='homeBTN'>
@@ -90,8 +90,6 @@ function Home() {
     <div className='business'>
         <div className='bizTypo'>
         <Typography variant="h4">Our <strong>Business</strong></Typography>
-
-        
         </div>
         <Grid container spacing={2}>
             <Grid item xs={12} sm ={12} md={4} lg={4}>

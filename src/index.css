@@ -1,3 +1,8 @@
+body{
+    margin: 0 !important;
+    font-family: 'Objective';
+    font-style: normal;
+}
 /*********************************************
 Home
 *********************************************/
@@ -11,7 +16,7 @@ Home
     height: 600px;
 }
 .home-text {
-    margin: 1em;   
+    /* margin: 1em;    */
     position: relative;
     padding-top: 2em;
     color: #FFFFFF;
@@ -49,7 +54,7 @@ Home
     align-items: center;
     text-align: center;
     color: #FFFFFF;
-    background: #103A05;
+    background: #223e32;
 }
 .tp{
     padding-top: 109px;
@@ -61,7 +66,8 @@ Home
 .typo{
     width: 437px;
     height: 400px;
-    align-items: center;
+    padding: 1em;
+    justify-content: center;
     border: 3px solid #2D3F57;
     box-sizing: border-box;
     
@@ -69,6 +75,7 @@ Home
 .business{
   text-align: center;
   padding-bottom: 100px;
+  margin: 1em;
 
 }
 .bizTypo {
@@ -89,7 +96,7 @@ Home
     left: 7.5em;
     width: 49px;
     height: 6px;
-    background: #103A05;
+    background: #223e32;
 }
 .bizTypo h4 {
     position: relative;
@@ -104,7 +111,7 @@ Home
     content: "";
     width: 140px;
     height: 8px;
-    background: #103A05;
+    background: #223e32;
 }
 .bizTypo h4::before{
     top: 0.6em;
@@ -113,7 +120,7 @@ Home
     content: "";
     width: 140px;
     height: 8px;
-    background: #103A05;
+    background: #223e32;
 }
 .handImg{
     width: 100px;
@@ -148,7 +155,7 @@ Home
     padding-top: 30px;
     gap: 15px;
     justify-content: center;
-    background: #103A05;
+    background: #223e32;
     color: #FFFFFF;
     position: relative;
 }
@@ -173,7 +180,7 @@ Home
 }
 .partner-logo{
     display: flex;
-    border: 1px solid #103A05;
+    border: 1px solid #223e32;
     box-sizing: border-box;
     align-items: center;
 }
@@ -182,11 +189,12 @@ Home
     align-content: center;
     height: 140px;
     align-self: center;
-    border: 1px solid #103A05;
+    border: 1px solid #223e32;
 }
 .partner-sen{
-    border: 1px solid #103A05;
+    border: 1px solid #223e32;
     justify-content: center;
+    padding: 1em;
     box-sizing: border-box;
     padding-bottom: 20px;
 }
@@ -223,7 +231,7 @@ Home
     content: "";
     width: 140px;
     height: 8px;
-    background: #103A05;
+    background: #223e32;
 
 }
 .mantra-typo h3::after{
@@ -233,11 +241,11 @@ Home
     content: "";
     width: 140px;
     height: 8px;
-    background: #103A05;
+    background: #223e32;
 
 }
 .conBtn {
-    background: #103A05 !important;
+    background: #223e32!important;
     color: #FFFFFF !important;
 }
 .cards{
@@ -248,7 +256,8 @@ Home
 }
 .stats {
     display: flex;
-    background: #103A05 !important;
+    padding: 1em;
+    background: #223e32 !important;
     color: #FFFFFF !important;
 }
 .quote{
