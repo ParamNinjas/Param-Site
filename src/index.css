@@ -269,3 +269,8 @@ Home
 .techpart{
     flex: 2;
 }
+.sliderimg{
+    width: 200px;
+    height: 100px;
+    /* object-fit: cover */
+  }
