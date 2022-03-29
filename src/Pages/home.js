@@ -9,6 +9,12 @@ import {
 import Rectange from '../img/Rectangle-13.png';
 import link from '../img/link.png';
 import handshake from '../img/handshake.png';
+import altron from '../img/altron.png';
+import bbd from '../img/bbd.jpg';
+import ioco from '../img/ioco.png';
+import iqb from '../img/iqb.png';
+import ntiys from '../img/ntiys.png';
+import EOH from '../img/EOH.png';
 import money from '../img/money.png';
 import  microsoft from '../img/microsoft.png'
 import liferay from '../img/Liferay.png'
@@ -22,9 +28,9 @@ import CardMedia from '@material-ui/core/CardMedia';
 import con from '../img/con.png'
 import collab from '../img/collab.png'
 import curiosity from '../img/curiosity.png'
-import AliceCarousel from 'react-alice-carousel';
-import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from '../Footer/footer';
+import Carouselimg from '../components/carousel'
+
 
 const useStyles = makeStyles({
     root: {
@@ -157,11 +163,10 @@ function Home() {
                 </div>
                 
                 <div className='partner-logo'>
-                        <AliceCarousel autoPlay autoPlayInterval="1000">
-                            <img src={microsoft} className="sliderimg"/>
-                            <img src={liferay} className="sliderimg"/>
-                            <img src={ibm} className="sliderimg"/>
-                        </AliceCarousel>
+              
+                    <Carouselimg/>
+
+
                     </div>
             <div className='partner-sen'>
                 <Typography variant='h5'>
