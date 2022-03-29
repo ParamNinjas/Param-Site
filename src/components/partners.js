@@ -50,7 +50,7 @@ const items = [
 const Partners=() => {
     return(
         <AliceCarousel
-        autoPlay autoPlayInterval="1000"
+        autoPlay autoPlayInterval="5000"
         mouseTracking
         items={items}
         responsive={responsive}
