@@ -1,4 +1,4 @@
-.carousel .slick-arrow.slick-prev,
+/* .carousel .slick-arrow.slick-prev,
 .carousel .slick-arrow.slick-next {
     background: #fcfcfc;
     width: 47px;
@@ -46,7 +46,7 @@
     transition: 500ms;
 }
 
-.MultiItemCarousel h1 {
+.imgDisplay h1 {
     font-size: 3rem;
     font-weight: 200;
     text-align: center;
@@ -57,7 +57,7 @@
     padding-bottom: 1rem;
 }
 
-.MultiItemCarousel h1::after {
+.imgDisplay h1::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -68,8 +68,8 @@
     transform: translateX(-50%);
 
 }
-section#MultiItemCarousel {
+section#imgDisplay {
     background:  #fff;
     text-align: center;
     color:#4b4586;
-  }
+  } */
