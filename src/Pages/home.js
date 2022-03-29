@@ -24,6 +24,7 @@ import collab from '../img/collab.png'
 import curiosity from '../img/curiosity.png'
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
+import Partners from '../components/partners';
 import Footer from '../Footer/footer';
 
 const useStyles = makeStyles({
@@ -157,11 +158,18 @@ function Home() {
                 </div>
                 
                 <div className='partner-logo'>
-                        <AliceCarousel autoPlay autoPlayInterval="1000">
+                    <Partners/>
+                        {/* <AliceCarousel autoPlay autoPlayInterval="1000">
                             <img src={microsoft} className="sliderimg"/>
                             <img src={liferay} className="sliderimg"/>
                             <img src={ibm} className="sliderimg"/>
-                        </AliceCarousel>
+                            <img src={microsoft} className="sliderimg"/>
+                            <img src={liferay} className="sliderimg"/>
+                            <img src={ibm} className="sliderimg"/>
+                            <img src={microsoft} className="sliderimg"/>
+                            <img src={liferay} className="sliderimg"/>
+                            <img src={ibm} className="sliderimg"/>
+                        </AliceCarousel> */}
                     </div>
             <div className='partner-sen'>
                 <Typography variant='h5'>
