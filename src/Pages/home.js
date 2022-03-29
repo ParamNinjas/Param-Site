@@ -70,7 +70,7 @@ function Home() {
    
     </div>
             <div className='tp'>
-                <Container>
+               
                 <img
                     src={Rectange}
                     alt='tpimage'
@@ -91,7 +91,7 @@ function Home() {
                         disruption to take.
                     </Typography>
                 </div> 
-                </Container>
+              
             </div>
             <div className='business'>
                 <div className='bizTypo'>
@@ -181,7 +181,7 @@ function Home() {
                 </Typography>
             </div>
             <div className='cards'>
-                <Container>
+                
                 <div className='card1'>
                     <Card className={classes.root}>
                     <CardActionArea>
@@ -258,10 +258,10 @@ function Home() {
                     </CardActions>
                     </Card>
                 </div>
-                </Container>
+              
             </div>
             <div className='stats'>
-                <Container>
+                
                 <div className='quote'>
                     <Typography>
                     " We are better working together on<br/> delivering one big solution, 
@@ -285,7 +285,7 @@ function Home() {
                         10 + Partners
                     </Typography>
                 </div>
-                </Container>
+                
             </div>
             <br/>
             <br/>
