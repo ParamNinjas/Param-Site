@@ -70,6 +70,7 @@ function Home() {
    
     </div>
             <div className='tp'>
+                <Container>
                 <img
                     src={Rectange}
                     alt='tpimage'
@@ -89,12 +90,14 @@ function Home() {
                         that   bring   positive  outcomes   and   allow   for 
                         disruption to take.
                     </Typography>
-                </div>  
+                </div> 
+                </Container>
             </div>
             <div className='business'>
                 <div className='bizTypo'>
                 <Typography variant="h4">Our <strong>Business</strong></Typography>
                 </div>
+                <Container>
                 <Grid container spacing={2}>
                     <Grid item xs={12} sm ={12} md={4} lg={4}>
                         <img
@@ -146,6 +149,7 @@ function Home() {
                         </Typography> 
                     </Grid>
                 </Grid>
+                </Container>
             </div>
             <div className='partner'>
                 <div className='partner-typo'>
@@ -153,7 +157,7 @@ function Home() {
                 </div>
                 
                 <div className='partner-logo'>
-                        <AliceCarousel autoPlay autoPlayInterval="3000">
+                        <AliceCarousel autoPlay autoPlayInterval="1000">
                             <img src={microsoft} className="sliderimg"/>
                             <img src={liferay} className="sliderimg"/>
                             <img src={ibm} className="sliderimg"/>
@@ -177,6 +181,7 @@ function Home() {
                 </Typography>
             </div>
             <div className='cards'>
+                <Container>
                 <div className='card1'>
                     <Card className={classes.root}>
                     <CardActionArea>
@@ -253,8 +258,10 @@ function Home() {
                     </CardActions>
                     </Card>
                 </div>
+                </Container>
             </div>
             <div className='stats'>
+                <Container>
                 <div className='quote'>
                     <Typography>
                     " We are better working together on<br/> delivering one big solution, 
@@ -278,6 +285,7 @@ function Home() {
                         10 + Partners
                     </Typography>
                 </div>
+                </Container>
             </div>
             <br/>
             <br/>
