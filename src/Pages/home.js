@@ -10,9 +10,6 @@ import Rectange from '../img/Rectangle-13.png';
 import link from '../img/link.png';
 import handshake from '../img/handshake.png';
 import money from '../img/money.png';
-import  microsoft from '../img/microsoft.png'
-import liferay from '../img/Liferay.png'
-import ibm from '../img/ibm.png'
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -22,7 +19,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import con from '../img/con.png'
 import collab from '../img/collab.png'
 import curiosity from '../img/curiosity.png'
-import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import Partners from '../components/partners';
 import Footer from '../Footer/footer';
@@ -159,17 +155,6 @@ function Home() {
                 
                 <div className='partner-logo'>
                     <Partners/>
-                        {/* <AliceCarousel autoPlay autoPlayInterval="1000">
-                            <img src={microsoft} className="sliderimg"/>
-                            <img src={liferay} className="sliderimg"/>
-                            <img src={ibm} className="sliderimg"/>
-                            <img src={microsoft} className="sliderimg"/>
-                            <img src={liferay} className="sliderimg"/>
-                            <img src={ibm} className="sliderimg"/>
-                            <img src={microsoft} className="sliderimg"/>
-                            <img src={liferay} className="sliderimg"/>
-                            <img src={ibm} className="sliderimg"/>
-                        </AliceCarousel> */}
                     </div>
             <div className='partner-sen'>
                 <Typography variant='h5'>

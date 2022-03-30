@@ -16,6 +16,7 @@ a {
     text-decoration: none;
     color: #FFFFFF;
 }
+
 .nav{
     display: flex;
     justify-content: start;
@@ -27,5 +28,37 @@ a {
 .navMenu{
     display: flex;
     justify-content: start;
-    gap: 9rem;
+    gap: 7rem;
+}
+.nav-item{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn{
+    display: none;
+    position: absolute;
+    right: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+@media screen and (max-width: 500px) {
+    .navMenu{
+        flex-direction: column;
+        height: auto;
+    }
+    .nav-item:nth-child(1){
+        border-top: 1px solid #FFFFFF;
+
+    }
+    .nav-item{
+        width: 100%;
+        border-top: 1px solid #FFFFFF;
+        text-align: center;
+        margin-right: 0px;
+        /* padding: 20px 0; */
+    }
+    .btn {
+        display: block;
+    }
 }

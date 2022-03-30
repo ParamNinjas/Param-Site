@@ -10,6 +10,8 @@ import iqb from '../img/iqb.png'
 import  ioco from '../img/ioco.png'
 import ntiys from '../img/ntiys.png'
 import altron from '../img/altron.png'
+import fd from '../img/fd.png'
+import ovations from '../img/ovations.png'
 
 const responsive = {
     0: { items: 1 },
@@ -45,12 +47,18 @@ const items = [
  <div className="item" data-value="5">
      <img src={ntiys} className="sliderimg"/>
  </div>,
+  <div className="item" data-value="4">
+  <img src={fd} className="sliderimg"/>
+</div>,
+<div className="item" data-value="5">
+  <img src={ovations} className="sliderimg"/>
+</div>,
 ];
 
 const Partners=() => {
     return(
         <AliceCarousel
-        autoPlay autoPlayInterval="5000"
+        autoPlay autoPlayInterval="2000"
         mouseTracking
         items={items}
         responsive={responsive}
