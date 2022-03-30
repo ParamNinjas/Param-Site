@@ -39,6 +39,7 @@ function Home() {
     <>   
         <Nav/>
         <div className='home-con'>
+            <Container>
             <h2 className='home-text'>Connecting great<br/> Ideas with great <br/>teams through collaboration</h2>
             <div className='homeBTN'>
    <            Button 
@@ -64,10 +65,10 @@ function Home() {
                     to divide their code into logical blocks.
                 </p>
             </div>
-   
+            </Container>
     </div>
             <div className='tp'>
-               
+               <Container>
                 <img
                     src={Rectange}
                     alt='tpimage'
@@ -88,7 +89,7 @@ function Home() {
                         disruption to take.
                     </Typography>
                 </div> 
-              
+                </Container>
             </div>
             <div className='business'>
                 <div className='bizTypo'>
@@ -174,84 +175,92 @@ function Home() {
                 </Typography>
             </div>
             <div className='cards'>
-                
-                <div className='card1'>
-                    <Card className={classes.root}>
-                    <CardActionArea>
-                        <CardMedia
-                        className={classes.media}
-                        image={con}
-                        title="consolidation"
-                        />
-                        <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            Consolidation
-                        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Consolidating systems in your business eliminates information 
-                            silo's,  such as integrating across legacy systems, whilst providing 
-                            operational efficiencies. 
-                        </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                    <CardActions>
-                        <Button variant='outlined' size="small" className='conBtn'>
-                            Read More...
-                        </Button>
-                    </CardActions>
-                    </Card>
-                </div>
-                <div className='card2'>
-                    <Card className={classes.root}>
-                    <CardActionArea>
-                        <CardMedia
-                        className={classes.media}
-                        image={collab}
-                        title="collaboration"
-                        />
-                        <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            Collaboration
-                        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Facilitating collaboration improves productivity across your business,
-                            reduces costs, shortens timelines and encourages shared ideas.  
-                        </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                    <CardActions>
-                        <Button variant='outlined' size="small" className='conBtn'>
-                            Read More...
-                        </Button>
-                    </CardActions>
-                    </Card>
-                </div>
-                <div className='card3'>
-                    <Card className={classes.root}>
-                    <CardActionArea>
-                        <CardMedia
-                        className={classes.media}
-                        image={curiosity}
-                        title="cutiosity"
-                        />
-                        <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            Curiosity
-                        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                        Remarkable inventions throughout history, from the light bulb to electric
-                        cars, are all the result of curiosity.
-                        </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                    <CardActions>
-                        <Button variant='outlined' size="small" className='conBtn'>
-                            Read More...
-                        </Button>
-                    </CardActions>
-                    </Card>
-                </div>
+                <Grid container spacing={2}>
+                    <Grid item xs={12} sm={12} md={4} lg={4}>
+                        <div className='card1'>
+                            <Card className={classes.root}>
+                            <CardActionArea>
+                                <CardMedia
+                                className={classes.media}
+                                image={con}
+                                title="consolidation"
+                                />
+                                <CardContent>
+                                <Typography gutterBottom variant="h5" component="h2">
+                                    Consolidation
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    Consolidating systems in your business eliminates information 
+                                    silo's,  such as integrating across legacy systems, whilst providing 
+                                    operational efficiencies. 
+                                </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                                <Button variant='outlined' size="small" className='conBtn'>
+                                    Read More...
+                                </Button>
+                            </CardActions>
+                            </Card>
+                        </div>
+                    </Grid>
+                    <Grid item xs={12} sm={12} md={4} lg={4}>
+                        <div className='card2'>
+                            <Card className={classes.root}>
+                            <CardActionArea>
+                                <CardMedia
+                                className={classes.media}
+                                image={collab}
+                                title="collaboration"
+                                />
+                                <CardContent>
+                                <Typography gutterBottom variant="h5" component="h2">
+                                    Collaboration
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    Facilitating collaboration improves productivity across your business,
+                                    reduces costs, shortens timelines and encourages shared ideas.  
+                                </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                                <Button variant='outlined' size="small" className='conBtn'>
+                                    Read More...
+                                </Button>
+                            </CardActions>
+                            </Card>
+                        </div>
+                    </Grid>
+                    <Grid item xs={12} sm={12} md={4} lg={4}>
+
+                        <div className='card3'>
+                            <Card className={classes.root}>
+                            <CardActionArea>
+                                <CardMedia
+                                className={classes.media}
+                                image={curiosity}
+                                title="cutiosity"
+                                />
+                                <CardContent>
+                                <Typography gutterBottom variant="h5" component="h2">
+                                    Curiosity
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                Remarkable inventions throughout history, from the light bulb to electric
+                                cars, are all the result of curiosity.
+                                </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                                <Button variant='outlined' size="small" className='conBtn'>
+                                    Read More...
+                                </Button>
+                            </CardActions>
+                            </Card>
+                        </div>
               
+                    </Grid>
+                </Grid>   
             </div>
             <div className='stats'>
                 

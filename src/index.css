@@ -274,3 +274,23 @@ Home
     height: 100px;
     /* object-fit: cover */
   }
+@media screen and (max-width: 500px) {
+    .home-paragraph {   
+      top: 8em;
+      height: auto !important;
+    } 
+    .tp {    
+        top: 18em;
+        position: relative;
+        padding-bottom: 19em;
+    }
+    .homeBTN {
+        top: 26em !important;
+        left: 2em;
+        position: absolute;
+    }
+    .tpimage{
+        display: none;
+    }
+
+  }
