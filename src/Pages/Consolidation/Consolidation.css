@@ -31,7 +31,7 @@
     display: grid;
     position: relative;
     top: 3em;
-    left: 9em;
+    left: 1em;
 }
 .consol1Img{
     width: 350px;
@@ -43,14 +43,14 @@
 }
 .content-paragraph{
     position: relative;
-    left: 29em;
-    bottom: 22.4em;
-    width: 27em;
+    left: 14em;
+    bottom: 17.4em;
+    width: 30em;
     font-family: 'Objective';
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
-    line-height: 50px;   
+    font-size: 27px;
+    line-height: 50px;
 }
 .consolidate-images{
     position: relative;
