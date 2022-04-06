@@ -41,7 +41,7 @@ function Home() {
         <div className='home-con'>
             <h2 className='home-text'>Connecting great<br/> Ideas with great <br/>teams through collaboration</h2>
             <div className='homeBTN'>
-   <            Button 
+                <Button 
                     className='teamBTN'
                     variant='outlined'
                     >

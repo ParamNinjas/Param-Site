@@ -1,0 +1,67 @@
+.collabTypo{
+    position: relative;
+    top: 2em;
+    text-align: center;
+}
+
+.collabTypo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+.collabTypo::before{
+    top: 0.6em;
+    position: absolute;
+    right: 16.5em;
+    content: "";
+    width: 140px;
+    height: 8px;
+    background: #223e32;
+}
+
+.collabTypo::after{
+    top: 0.6em;
+    position: absolute;
+    right: 7.5em;
+    content: "";
+    width: 140px;
+    height: 8px;
+    background: #223e32;
+}
+.collab-paragraph{
+    position: relative;
+    top: 5em;
+    font-family: 'Objective';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 60px;
+    text-align: justify;
+}
+.collab-images{
+    position: relative;
+    top: 15em;
+}
+.collab3Img{
+    border-radius: 30px;
+    width: 319px;
+    height: 444px;
+    margin-right: 2em;
+}
+.collab2Img{
+    border-radius: 30px;
+    width: 319px;
+    height: 444px;
+    position: relative;
+    bottom: 3em;
+    margin-right: 2em;
+}
+.collab1Img{
+    position: relative;
+    bottom: 5em;
+    border-radius: 30px;
+    width: 319px;
+    height: 444px;
+}
